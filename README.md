@@ -1,21 +1,6 @@
 # Etherpad Lite image for docker
 
-This is a docker image for [Etherpad Lite](http://etherpad.org/) collaborative text editor. The Dockerfile for this image has been inspired by [johbo's etherpad-lite](https://registry.hub.docker.com/u/johbo/etherpad-lite/).
-
-[This image comes with configuration options for MariaDB (or MySQL) as the database backend. The docker-compose file we added allows users launch the etherpad and the database with a single `docker-compose up`.
-
-## About Etherpad Lite
-
-> *From the official website:*
-
-Etherpad allows you to edit documents collaboratively in real-time, much like a live multi-player editor that runs in your browser. Write articles, press releases, to-do lists, etc. together with your friends, fellow students or colleagues, all working on the same document at the same time.
-
-![alt text](http://i.imgur.com/zYrGkg3.gif "Etherpad in action on PrimaryPad")
-
-All instances provide access to all data through a well-documented API and supports import/export to many major data exchange formats. And if the built-in feature set isn't enough for you, there's tons of plugins that allow you to customize your instance to suit your needs.
-
-You don't need to set up a server and install Etherpad in order to use it. Just pick one of publicly available instances that friendly people from everywhere around the world have set up. Alternatively, you can set up your own instance by following our installation guide
-
+Aus der branch etherpad-lite:
 ## Quickstart
 
 First you need a running mysql container, for example:
